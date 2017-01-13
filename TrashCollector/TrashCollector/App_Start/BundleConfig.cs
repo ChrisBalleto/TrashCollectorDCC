@@ -24,7 +24,7 @@ namespace TrashCollector
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/Samplex-Style.css",
                       "~/Content/site.css"));
         }
     }

@@ -15,8 +15,12 @@ namespace TrashCollector.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Mission";
 
+            return View();
+        }
+        public ActionResult FeesAndSchedule()
+        {
             return View();
         }
 
